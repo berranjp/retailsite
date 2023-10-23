@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Computers and Tablets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <style>
+            * {
+                box-sizing:border-box;
+            }
+            body {
+                margin:0;
+                padding:0;
+            }
+            img {
+                max-width:100%;
+                height:auto;
+                max-height:250px;
+            }
+            .container {
+                display:grid;
+                grid-template-columns:repeat(12,1fr);
+                grid-auto-rows:minmax(50px, auto);
+            }
+            header {
+                grid-column:1/13;
+                text-align:center;
+                background-color:#7798A3;
+                padding-top:10px;
+            }
+            nav {
+                grid-column:1/13;
+                display:flex;
+                align-items:center;
+                justify-content:space-around;
+                background-color:#7798A3;
+                padding:20px;
+            }
+            section {
+                grid-column:1/13;
+                text-align:center;
+                padding-left:15px;
+                padding-right:15px;
+            }
+            .product1 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product2 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product3 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product4 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product5 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product6 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product7 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product8 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product9 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product10 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product11 {
+                grid-column:1/7;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            .product12 {
+                grid-column:7/13;
+                text-align:center;
+                margin:4px;
+                border-style:solid;
+                border-color:#dbdbdb;
+                border-radius:10px;
+                background-color:#f7f7f7;
+            }
+            footer {
+                grid-column:1/13;
+                text-align:center;
+                background-color:#7798A3;
+                padding:5px;
+            }
+            
+@media only screen and (min-width:620px) {
+    .product1 {
+        grid-column:1/4;
+    }
+    .product2 {
+        grid-column:4/7;
+    }
+    .product3 {
+        grid-column:7/10;
+    }
+    .product4 {
+        grid-column:10/13;
+    }
+    .product5 {
+        grid-column:1/4;
+    }
+    .product6 {
+        grid-column:4/7;
+    }
+    .product7 {
+        grid-column:7/10;
+    }
+    .product8 {
+        grid-column:10/13;
+    }
+    .product9 {
+        grid-column:1/4;
+    }
+    .product10 {
+        grid-column:4/7;
+    }
+    .product11 {
+        grid-column:7/10;
+    }
+    .product12 {
+        grid-column:10/13;
+    }
+}
+            
+@media only screen and (min-width:900px) {
+    .product1 {
+        grid-column:1/3;
+    }
+    .product2 {
+        grid-column:3/5;
+    }
+    .product3 {
+        grid-column:5/7;
+    }
+    .product4 {
+        grid-column:7/9;
+    }
+    .product5 {
+        grid-column:9/11;
+    }
+    .product6 {
+        grid-column:11/13;
+    }
+    .product7 {
+        grid-column:1/3;
+    }
+    .product8 {
+        grid-column:3/5;
+    }
+    .product9 {
+        grid-column:5/7;
+    }
+    .product10 {
+        grid-column:7/9;
+    }
+    .product11 {
+        grid-column:9/11;
+    }
+    .product12 {
+        grid-column:11/13;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <a href="index.html"><img src="images/logo.png" alt="Rocktown Electronics logo"></a>
+            </header>
+            <nav>
+                <div><a href="index.html">Home</a></div>
+                <div><a href="product1.html">Phones</a></div>
+                <div><a href="product2.html">Computers and Tablets</a></div>
+            </nav>
+        </div>
+        <div class="container">
+            <section>
+                <h1>Computers and Tablets</h1>
+            </section>
+            <div class="product1">
+                <img src="images/macbook-air.jpeg" alt="MacBook Air">
+                <h2>MacBook Air</h2>
+                <p>Starting from $999</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product2">
+                <img src="images/mbp13.jpeg" alt="MacBook Pro 13 inch">
+                <h2>MacBook Pro 13"</h2>
+                <p>Starting from $1,299</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product3">
+                <img src="images/mbp16.jpeg" alt="MacBook Pro 16 inch">
+                <h2>MacBook Pro 16"</h2>
+                <p>Starting from $2,399</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product4">
+                <img src="images/imac24.jpeg" alt="iMac 24 inch">
+                <h2>iMac 24"</h2>
+                <p>Starting from $1,299</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product5">
+                <img src="images/imac27.jpeg" alt="iMac 27 inch">
+                <h2>iMac 27"</h2>
+                <p>Starting from $1,799</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product6">
+                <img src="images/mac-pro.jpeg" alt="Mac Pro">
+                <h2>Mac Pro</h2>
+                <p>Starting from $5,999</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product7">
+                <img src="images/mac-mini.jpeg" alt="Mac Mini">
+                <h2>Mac Mini</h2>
+                <p>Starting from $699</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product8">
+                <img src="images/surface-laptop-4.jpeg" alt="Surface Laptop 4">
+                <h2>Surface Laptop 4</h2>
+                <p>Starting from $999</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product9">
+                <img src="images/surface-pro-x.jpeg" alt="Surface Pro X">
+                <h2>Surface Pro X</h2>
+                <p>Starting from $999</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product10">
+                <img src="images/ipad-mini.jpeg" alt="iPad Mini">
+                <h2>iPad Mini</h2>
+                <p>Starting from $399</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product11">
+                <img src="images/ipad-air.jpeg" alt="iPad Air">
+                <h2>iPad Air</h2>
+                <p>Starting from $599</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+            <div class="product12">
+                <img src="images/ipad-pro.jpeg" alt="iPad Pro">
+                <h2>iPad Pro</h2>
+                <p>Starting from $799</p>
+                <p><a href="#">Buy</a></p>
+            </div>
+        </div>
+        <div class="wrapper2">
+            <footer>
+                <p>&copy;2021 Rocktown Electronics</p>
+                <p><a href="privacy.html">Privacy Policy</a></p>
+            </footer>
+        </div>
+    </body>
+</html>
